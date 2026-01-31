@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Jobs</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -44,8 +44,8 @@
             <nav class="navbar">
                 <a href="/welcome" class="logo">My<span>App</span></a>
                 <div class="nav-links" id="navLinks">
-                    <a href="/welcome" class="active">Home</a>
-                    <a href="/jobs">Job</a>
+                    <a href="/welcome">Home</a>
+                    <a href="/jobs" class="active">Job</a>
                     <a href="/contact">Contact</a>
                 </div>
                 <div class="hamburger" onclick="toggleMenu()">
@@ -58,7 +58,7 @@
 
         <!-- Main Content -->
         <main class="main-content">
-            <h1 style="font-size: 2.5rem; color: #333;">Hello World</h1>
+            <h1 style="font-size: 2.5rem; color: #333;">Jobs Page</h1>
         </main>
 
         <script>
